@@ -4,11 +4,11 @@
 }
 .mainbar{
 	background-color: pink;
-	grid-area: mainbar;
+	grid-area: main-bar;
 }
 .menu{
 	background-color: orange;
-	grid-area: menu;
+	grid-area: menus;
 }
 .content{
 	background-color: yellow;
@@ -23,9 +23,9 @@
 	display: grid;
 	grid-template-areas: 
 		'header header header header'
-		'mainbar mainbar mainbar mainbar'
-		'menu contentss contentss contentss'
-		'menu contentss contentss contentss'
-		'menu contentss contentss contentss'
+		'main-bar main-bar main-bar main-bar'
+		'menus contentss contentss contentss'
+		'menus contentss contentss contentss'
+		'menus contentss contentss contentss'
 		'footer footer footer footer';
 }
