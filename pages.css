@@ -8,7 +8,7 @@
 }
 .menu{
 	background-color: orange;
-	grid-area: menus;
+	grid-area: menu;
 }
 .content{
 	background-color: yellow;
@@ -24,8 +24,8 @@
 	grid-template-areas: 
 		'header header header header'
 		'main-bar main-bar main-bar main-bar'
-		'menus contentss contentss contentss'
-		'menus contentss contentss contentss'
-		'menus contentss contentss contentss'
+		'menu contentss contentss contentss'
+		'menu contentss contentss contentss'
+		'menu contentss contentss contentss'
 		'footer footer footer footer';
 }
