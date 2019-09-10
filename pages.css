@@ -1,32 +1,31 @@
 .header{
 	background-color: blue;
-	grid-area: header1;
+	grid-area: header;
 }
 .mainbar{
 	background-color: pink;
-	grid-area: mainbar1;
+	grid-area: mainbar;
 }
 .menu{
 	background-color: orange;
-	grid-area: menu1;
+	grid-area: menu;
 }
 .content{
 	background-color: yellow;
-	grid-area: contentss1;
+	grid-area: contentss;
 
 }
 .footer{
 	background-color: green;
-	grid-area: footer1;
+	grid-area: footer;
 }
 .container{
 	display: grid;
 	grid-template-areas: 
-		'header1 header1 header1 header1'
-		'mainbar1 mainbar1 mainbar1 mainbar1'
-		'menu1 contentss1 contentss1 contentss1'
-		'menu1 contentss1 contentss1 contentss1'
-		'menu1 contentss1 contentss1 contentss1'
-		'footer1 footer1 footer1 footer1';
-	grid-auto-columns: 250px 250px 250px 250px 250px;
+		'header header header header'
+		'mainbar mainbar mainbar mainbar'
+		'menu contentss contentss contentss'
+		'menu contentss contentss contentss'
+		'menu contentss contentss contentss'
+		'footer footer footer footer';
 }
