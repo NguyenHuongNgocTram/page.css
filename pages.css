@@ -1,34 +1,32 @@
-<style>
-	.header{
-		background-color: blue;
-		grid-area: header1;
-	}
-	.mainbar{
-		background-color: pink;
-		grid-area: mainbar1;
-	}
-	.menu{
-		background-color: orange;
-		grid-area: menu1;
-	}
-	.content{
-		background-color: yellow;
-		grid-area: contentss1;
+.header{
+	background-color: blue;
+	grid-area: header1;
+}
+.mainbar{
+	background-color: pink;
+	grid-area: mainbar1;
+}
+.menu{
+	background-color: orange;
+	grid-area: menu1;
+}
+.content{
+	background-color: yellow;
+	grid-area: contentss1;
 
-	}
-	.footer{
-		background-color: green;
-		grid-area: footer1;
-	}
-	.container{
-		display: grid;
-		grid-template-areas: 
-			'header1 header1 header1 header1'
-			'mainbar1 mainbar1 mainbar1 mainbar1'
-			'menu1 contentss1 contentss1 contentss1'
-			'menu1 contentss1 contentss1 contentss1'
-			'menu1 contentss1 contentss1 contentss1'
-			'footer1 footer1 footer1 footer1';
-		grid-auto-columns: 250px 250px 250px 250px 250px;
-	}
-</style>
+}
+.footer{
+	background-color: green;
+	grid-area: footer1;
+}
+.container{
+	display: grid;
+	grid-template-areas: 
+		'header1 header1 header1 header1'
+		'mainbar1 mainbar1 mainbar1 mainbar1'
+		'menu1 contentss1 contentss1 contentss1'
+		'menu1 contentss1 contentss1 contentss1'
+		'menu1 contentss1 contentss1 contentss1'
+		'footer1 footer1 footer1 footer1';
+	grid-auto-columns: 250px 250px 250px 250px 250px;
+}
