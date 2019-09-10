@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+	<title> web grid</title>
+
+	</head>
+
+	<style type="text/css">
+			.header{
+				background-color: blue;
+				grid-area: header1;
+			}
+			.mainbar{
+				background-color: pink;
+				grid-area: mainbar1;
+			}
+			.menu{
+				background-color: orange;
+				grid-area: menu1;
+			}
+			.content{
+				background-color: yellow;
+				grid-area: contentss1;
+
+			}
+			.footer{
+				background-color: green;
+				grid-area: footer1;
+			}
+			.container{
+				display: grid;
+				grid-template-areas: 
+					'header1 header1 header1 header1'
+					'mainbar1 mainbar1 mainbar1 mainbar1'
+					'menu1 contentss1 contentss1 contentss1'
+					'menu1 contentss1 contentss1 contentss1'
+					'menu1 contentss1 contentss1 contentss1'
+					'footer1 footer1 footer1 footer1';
+				grid-auto-columns: 250px 250px 250px 250px 250px;
+
+			}
+
+
+	</style>
+
+	<body>
+		<div class="container">
+    
+				<div class="header">
+					<h1>Header</h1>
+				</div>
+				<div class="mainbar">
+					<h1>MainBar</h1>
+				</div>
+				<div class="menu">
+					<h1> Menu </h1>
+					<p>menu1<p>
+				</div>
+				<div class="content">
+				 	<h1>Content</h1>
+				</div>
+				<div class="footer">
+					<h1> Footer</h1>
+				</div>
+        
+		</div>
+
+
+	</body>
+
+</html>
+
+
